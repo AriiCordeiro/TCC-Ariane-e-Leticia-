@@ -1,7 +1,7 @@
 # TCC-Ariane-e-Leticia-
 Códigos utilizados para o tcc de Ariane Cordeiro e Letícia Bianeck 
        
-*Sistema de controle de coleções biológicas didáticas*
+*SISTEMA DE CONTROLE DE COLEÇÕES BIOLÓGICAS DIDÁTICAS*
 
 *INTRODUÇÃO*
 
