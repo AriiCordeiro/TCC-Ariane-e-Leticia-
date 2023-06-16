@@ -11,9 +11,9 @@ O sistema web tem como objetivo disponibilizar informações das coleções biol
 
 Objetivos especificos:   
 -Contribuir no aprendizado das ciências da natureza, disponibilizando no site informações sobre o acervo biológico, como identificação taxonômica, número de espécimes, dados de coleta e integridade do material;    
--Facilitar tanto o processo de empréstimo como o de permuta de materiais entre os servidores;
--Ampliar as oportunidades de realização de aulas práticas;
--Disponibilizar a localização do material e o contato do docente ou técnico de laboratório responsável;
--Ser um site responsivo para facilitar o acesso em todos os dispositivos;
--Ser um site intuitivo, permitindo que os usuários encontrem as informações com facilidade;
--Atuar em qualquer sistema operacional que tenha navegadores de internet. 
+-Facilitar tanto o processo de empréstimo como o de permuta de materiais entre os servidores;    
+-Ampliar as oportunidades de realização de aulas práticas;     
+-Disponibilizar a localização do material e o contato do docente ou técnico de laboratório responsável;     
+-Ser um site responsivo para facilitar o acesso em todos os dispositivos;      
+-Ser um site intuitivo, permitindo que os usuários encontrem as informações com facilidade;    
+-Atuar em qualquer sistema operacional que tenha navegadores de internet.      
