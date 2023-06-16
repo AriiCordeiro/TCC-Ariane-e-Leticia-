@@ -10,7 +10,7 @@ Escopo e entregas propostas: :
 O sistema web tem como objetivo disponibilizar informações das coleções biológicas didáticas disponiveis nos *campi* IFPR, apresentando no site os dados das mesmas, contatos das instituições/curadoria e também informações sobre empréstimos. Queremos que o objetivo proposto seja entregue dentro do prazo com todas as funcionalidades eficazes. 
 
 Objetivos especificos:   
--Contribuir no aprendizado das ciências da natureza, disponibilizando no site informações sobre o acervo biológico, como identificação taxonômica, número de espécimes, dados de coleta e integridade do material;
+-Contribuir no aprendizado das ciências da natureza, disponibilizando no site informações sobre o acervo biológico, como identificação taxonômica, número de espécimes, dados de coleta e integridade do material;    
 -Facilitar tanto o processo de empréstimo como o de permuta de materiais entre os servidores;
 -Ampliar as oportunidades de realização de aulas práticas;
 -Disponibilizar a localização do material e o contato do docente ou técnico de laboratório responsável;
