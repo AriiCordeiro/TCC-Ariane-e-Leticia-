@@ -1,0 +1,105 @@
+<?php 
+
+// if(isset($_POST['submit']))
+// {
+//     // print_r($_POST['nomecolec']);
+//     // print_r($_POST['localidade']);
+//     // print_r($_POST['materiais']);
+//     // print_r($_POST['responsColec']);
+
+//     include_once('conexao.php');
+
+//     $nomecolec = $_POST['nomecolec'];
+//     $localidade = $_POST['localidade'];
+//     $materiais = $_POST['materiais'];
+//     $responsColec = $_POST['responsColec'];
+//     $disponibilidade = $_POST['disponibilidade'];
+//     $cttemprestimo = $_POST['cttemprestimo'];
+
+//     $result = mysqli_query($mysqli, "INSERT INTO cadastro(nomecolec, localidade, materiais, responsColec, disponibilidade, cttemprestimo) VALUES ('$nomecolec', '$localidade', '$materiais', '$responsColec', '$disponibilidade', '$cttemprestimo')");
+// }
+?>
+
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilo.css">
+    <title>Cadastro da Coleção</title>
+</head>
+<body>
+        <header>
+        <h1></h1>
+        </header>
+        <div class="container">
+            <img id="imageBG" src="imagens/imagemCapaTCC.jpg">
+            <img id="imageLG" src="imagens/LOGOverde.png">
+            <!-- <h2 id="text">Sistema de controle de coleções didáticas</h2>  -->
+        </div>
+
+        <a href="https://www.youtube.com/embed/jfKfPfyJRdk">
+        <button class="bt-entrar">Entrar</button>
+        </a>
+    
+        <hr size="3" width="95%" align="center" noshade>
+    <section> 
+      <form action="" method="POST">
+
+            <p><label for="busca">Busca livre:</label>
+            <input type="text" name="busca"></p>
+            
+        </form>
+    </section>
+
+    <section1>
+    <form action="" method="POST">
+        <p><label for="categoria">Categoria:</label>
+            <input type="checkbox" name="botanica" id="idbotanica">Botânica</p>
+            <input type="checkbox" name="microbiologica" id="idmicrobiologica">Microbiológica</p>
+            <input type="checkbox" name="paleontologica" id="idpaleontologica">Paleontológica</p>
+            <input type="checkbox" name="zoologica" id="idzoologica">Zoológica</p>
+            <input type="checkbox" name="abrangente" id="idabrangente">Abrangente</p>
+
+        <p><label for="tipomaterial">Tipo do material:</label>
+            <input type="checkbox" name="viaseca" id="idviaseca">Via seca</p>
+            <input type="checkbox" name="viaumida" id="idviaumida">Via úmida</p>
+            <input type="checkbox" name="pele" id="idpele">Pele</p>
+            <input type="checkbox" name="cranio" id="idcranio">Crânio</p>
+            <input type="checkbox" name="esqueleto" id="idesqueleto">Esqueleto</p>
+            <input type="checkbox" name="posturanatural" id="idposturanatural">Postura natural</p>
+            <input type="checkbox" name="posturacientifica" id="idposturacientifica">Postura científica</p>
+            <input type="checkbox" name="outrostipo" id="idoutrostipo">Outro</p>
+
+        <p><label for="classificacao">Classificação</label></p>
+            <p>Reino<input type="text" name="reino" id="idreino"></p>
+            <p>Filo<input type="text" name="filo" id="idfilo"></p>
+            <p>Classe<input type="text" name="classe" id="idclasse"></p>
+            <p>Ordem<input type="text" name="ordem" id="idordem"></p>
+            <p>Família<input type="text" name="familia" id="idfamilia"></p>
+            <p>Gênero<input type="text" name="genero" id="idgenero"></p>
+            <p>Espécie<input type="text" name="especie" id="idespecie"></p>
+
+        <p><label for="coleta">Coleta</label>
+            <p>País<input type="text" name="pais" id="idpais"></p>
+            <p>Estado<input type="text" name="estado" id="idestado"></p>
+            <p>Município<input type="text" name="municipio" id="idmunicipio"></p>
+            <p>Localidade<input type="text" name="localidade" id="idlocalidade"></p>
+            <p>Coordenadas-geográficas<input type="text" name="coordgeo" id="idcoordgeo"></p>
+            <p>Ano-de-coleta<input type="text" name="anocoleta" id="idanocoleta"></p>
+            <p>Coletador<input type="text" name="coletador" id="idcoletador"></p>
+
+        <p><label for="colecao">Coleção</label>
+            <p>Nome-da-coleção<input type="text" name="nomecolec" id="idnomecolec"></p>
+            <p>Localização<input type="text" name="local" id="idlocal"></p>
+            <p>Curador<input type="text" name="curador" id="idcurador"></p>
+            <p>Imagens<input type="checkbox" name="imagens" id="idimagens"></p>
+
+            <input type="submit" name="submit" id="submit">
+            
+    </form>
+    </section>
+        
+</body>
+</html>
