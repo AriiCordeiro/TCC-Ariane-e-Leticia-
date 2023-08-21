@@ -1,0 +1,176 @@
+@charset "UTF-8";
+
+* {
+    font-family: 'Cambria','Times New Roman', Times, serif;
+    box-sizing: border-box;
+}
+
+header, main, section, section1, article {
+    max-width: 900px;
+}
+
+header > h1 {
+    position: absolute;
+    width: 1302px;
+    height: 70px;
+    left: 7px;
+    top: -5px;
+    background: #FFFF; 
+    margin-top: auto;
+}
+
+.container {
+    position: relative;
+}
+
+#text {
+    color: white;
+    position: absolute;
+    width: 1250px;
+    height: 51px;
+    left: -600px;
+    top: 150px;
+    
+    font-weight: 400;
+    font-size: 44px;
+    line-height: 51px;
+    /* identical to box height */
+    
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.08em;
+    text-transform: uppercase; 
+    backdrop-filter: blur(1px);
+}
+  
+#imageBG {
+    width: 1300px;
+    height: 400px;
+    object-fit: fill;
+    box-sizing: border-box;
+    filter: brightness(40%);
+    /* position: absolute;
+    left: calc(50% - 1300px/2);
+    top: 58px; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#imageLG {
+    width: 250px;
+    height: 250px;
+    flex-shrink: 0;
+    border-radius: 317px;
+    position: absolute ;
+    top: 89px;
+    left: 550px; 
+    box-shadow: 16px 16px 10px rgba(0, 0, 0, 0.2);
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+}
+
+  
+section {
+    background-color: white;
+    padding: 10px;
+    margin-bottom: 2000px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.502);
+    position: relative;
+    top: 50px;
+    width: 2000px;
+}
+
+section1 {
+    background-color: white;
+    padding: 10px;
+    margin-bottom: 2000px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.502);
+    position: absolute;
+    top: 110%;
+    width: 2000px;
+}
+
+
+p {
+    text-align: justify;
+    line-height: 1.5em;
+}
+
+form {
+    background-color: white;
+    padding: 5px;
+    border-radius: 5px;
+    width: 100%;
+
+}
+
+form label {
+    display: block;
+    width: 100%;
+    font-size: 1em;
+    font-weight: 100;
+    background-color: #D8F3DC;
+    padding: 2px 2px;
+    margin-top: 5px;
+    margin-bottom: 0px;
+    border-radius: 5px;
+}
+
+input[type=text], [type=number], select, input[type=date], input[type=date], input[type=datetime], input[type=email], input[type=month], input[type=password], input[type=range], input[type=tel], input[type=time], input[type=week] {
+    width: 100%;
+    padding: 5px 5px;
+    font-size: 1em;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+  
+input[type=submit] {
+    width: 100%;
+    background-color: #4CAF50;
+    font-size: 1em;
+    color: white;
+    padding: 10px 20px;
+    margin: 5px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+  
+input[type=submit]:hover {
+    background-color: #B7E4C7;
+}
+/* BOTÕES */
+
+input[type=button], button {
+    width: 10%;
+    background-color: #74C69D;
+    font-size: 1.1em;
+    color: black;
+    padding: 10px 20px;
+    margin: 5px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    box-shadow: 9px 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.bt-entrar{
+    position: absolute;
+    top: 15px;
+    left: 1160px;
+    text-decoration: none; 
+    display: inline-block;
+}
